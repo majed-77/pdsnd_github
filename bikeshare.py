@@ -6,6 +6,11 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+#CITY_DATA = {'chicago': 'chicago.csv',
+#             'new york city': 'new_york_city.csv',
+#             'washington': 'washington.csv'}
+
+
 
 def get_filters():
     """
@@ -80,7 +85,7 @@ def time_stats(df):
     # display the most common month
     popular_month = df['month'].mode()[0]
     print('Most Common Month:', popular_month)
-
+    print('Most Common Month:', popular_month)
     # display the most common day of week
     popular_day = df['day_of_week'].mode()[0]
     print('Most Common day:', popular_day)
