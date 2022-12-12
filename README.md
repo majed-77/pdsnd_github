@@ -7,7 +7,31 @@
 bikeshare
 
 ### Description
-Create a branch named documentation
+This is a program it was developed for
+Allows the user to explore the United States
+bikeshare system database
+Retrieve stats information from
+Database. User is able to filter
+Information by city, month and
+Day of the week, in order to visualize
+Statistical information b
+A specific subset of the data.
+
+##In the first step, the user chooses
+filters that will be
+apply to the database. User is
+Able to choose many filters like her
+Do you like.
+
+After this step, the DataFrame for
+The analysis is generated on the basis of
+User-selected filters
+
+##In the second step, is the user
+able to choose from a list of options,
+The statistics that the user wants
+Calculation based on availability
+filtered data.
 ### Files used
 bikeshare.py
 
